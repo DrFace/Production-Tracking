@@ -12,7 +12,7 @@ const Dashboard = () => {
       setData(dashboardData);
       setLoading(false);
     }, 1000);
-  }, []);
+  }, []); 
 
   return (
     <Grid container spacing={3} sx={{ p: 3 }}>
